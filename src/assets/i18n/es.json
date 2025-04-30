@@ -1,0 +1,12 @@
+{
+  "info": {
+    "pais": "País",
+    "nombre_oficial": "Nombre Oficial",
+    "region": "Región",
+    "capital": "Capital",
+    "area": "Área",
+    "lenguajes": "Lenguajes",
+    "monedas": "Monedas",
+    "regresar": "Regresar"
+  }
+}

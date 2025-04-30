@@ -15,4 +15,5 @@ export interface Country {
     alt?: string;
   };
   region: string;
+  ccn3:string;
 }
