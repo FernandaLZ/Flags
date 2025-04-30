@@ -1,11 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {InfoComponent} from './components/info/info.component';
-import {ListComponent} from './components/list/list.component';
 
 const routes: Routes = [
-  { path: 'list', component: ListComponent },
-  { path: 'info', component: InfoComponent }
+  {
+    path: 'list',
+    loadComponent: () => import('./components/list/list.component').then(m => m.ListComponent)
+  },
+  {
+    path: 'info',
+    loadComponent: () => import('./components/info/info.component').then(m => m.InfoComponent)
+  }
 ];
 
 @NgModule({

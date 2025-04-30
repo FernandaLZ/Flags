@@ -3,12 +3,12 @@ import { CommonModule } from '@angular/common';
 
 import { FlagsRoutingModule } from './flags-routing.module';
 
-
 @NgModule({
-  declarations: [],
+  declarations: [
+  ],
   imports: [
     CommonModule,
-    FlagsRoutingModule
+    FlagsRoutingModule,
   ]
 })
 export class FlagsModule { }
